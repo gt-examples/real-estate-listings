@@ -1,0 +1,133 @@
+export type Listing = {
+  id: number;
+  type: "house" | "apartment" | "condo";
+  price: number;
+  sqft: number;
+  beds: number;
+  baths: number;
+  address: string;
+  city: string;
+  listed: Date;
+  image: string;
+  description: string;
+};
+
+export const listings: Listing[] = [
+  {
+    id: 1,
+    type: "house",
+    price: 749000,
+    sqft: 2400,
+    beds: 4,
+    baths: 3,
+    address: "1423 Maple Drive",
+    city: "Austin, TX",
+    listed: new Date("2026-01-15"),
+    image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=500&fit=crop",
+    description: "A stunning modern home with an open floor plan, hardwood floors throughout, and a spacious backyard with mature oak trees. The chef's kitchen features quartz countertops and stainless steel appliances. Located in a quiet, family-friendly neighborhood with top-rated schools nearby.",
+  },
+  {
+    id: 2,
+    type: "apartment",
+    price: 385000,
+    sqft: 1100,
+    beds: 2,
+    baths: 1,
+    address: "88 Harbor View, Unit 12C",
+    city: "San Francisco, CA",
+    listed: new Date("2026-02-03"),
+    image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=500&fit=crop",
+    description: "Bright corner unit with panoramic bay views from the living room and primary bedroom. Recently renovated with modern finishes, in-unit laundry, and a private balcony. Building amenities include a rooftop terrace, fitness center, and 24-hour concierge.",
+  },
+  {
+    id: 3,
+    type: "condo",
+    price: 520000,
+    sqft: 1650,
+    beds: 3,
+    baths: 2,
+    address: "310 Park Avenue, Suite 7B",
+    city: "New York, NY",
+    listed: new Date("2026-02-10"),
+    image: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=500&fit=crop",
+    description: "Elegant pre-war condo with soaring ceilings, crown molding, and oversized windows flooding the space with natural light. The renovated kitchen opens to a formal dining area. Steps from Central Park, world-class dining, and premier shopping.",
+  },
+  {
+    id: 4,
+    type: "house",
+    price: 1250000,
+    sqft: 3800,
+    beds: 5,
+    baths: 4,
+    address: "9 Cliffside Lane",
+    city: "Malibu, CA",
+    listed: new Date("2025-12-20"),
+    image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=500&fit=crop",
+    description: "Breathtaking oceanfront estate perched on the cliffs above the Pacific. Floor-to-ceiling windows frame unobstructed sunset views. Features include a saltwater infinity pool, outdoor kitchen, home theater, and direct beach access via a private stairway.",
+  },
+  {
+    id: 5,
+    type: "apartment",
+    price: 295000,
+    sqft: 850,
+    beds: 1,
+    baths: 1,
+    address: "455 Elm Street, Unit 3A",
+    city: "Portland, OR",
+    listed: new Date("2026-02-14"),
+    image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&h=500&fit=crop",
+    description: "Cozy and well-designed one-bedroom in the heart of the Pearl District. Exposed brick walls, polished concrete floors, and a gourmet kitchen with gas range. Walk to cafes, galleries, and Powell's Books. Includes one parking space and storage unit.",
+  },
+  {
+    id: 6,
+    type: "condo",
+    price: 675000,
+    sqft: 2000,
+    beds: 3,
+    baths: 2,
+    address: "22 Lakeshore Boulevard, Unit 5D",
+    city: "Chicago, IL",
+    listed: new Date("2026-01-28"),
+    image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=500&fit=crop",
+    description: "Luxurious lakefront condo with sweeping views of Lake Michigan and the Chicago skyline. The open-concept living area flows onto a generous terrace. Premium finishes include wide-plank oak floors, marble bathrooms, and a custom walk-in closet.",
+  },
+  {
+    id: 7,
+    type: "house",
+    price: 425000,
+    sqft: 1800,
+    beds: 3,
+    baths: 2,
+    address: "782 Willow Creek Road",
+    city: "Denver, CO",
+    listed: new Date("2026-02-08"),
+    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=500&fit=crop",
+    description: "Charming craftsman-style home nestled at the foot of the Rockies. Featuring a wraparound porch, updated kitchen with butcher-block counters, and a finished basement perfect for a home office. The large fenced yard backs up to open space trails.",
+  },
+  {
+    id: 8,
+    type: "apartment",
+    price: 510000,
+    sqft: 1300,
+    beds: 2,
+    baths: 2,
+    address: "1200 Brickell Avenue, Unit 28F",
+    city: "Miami, FL",
+    listed: new Date("2026-01-22"),
+    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=500&fit=crop",
+    description: "Sleek high-rise living in the Brickell financial district. This corner unit boasts floor-to-ceiling glass with sweeping views of Biscayne Bay. Resort-style amenities include an Olympic pool, spa, tennis courts, and a private marina.",
+  },
+  {
+    id: 9,
+    type: "condo",
+    price: 890000,
+    sqft: 2600,
+    beds: 4,
+    baths: 3,
+    address: "55 Beacon Hill Drive",
+    city: "Seattle, WA",
+    listed: new Date("2026-02-12"),
+    image: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=500&fit=crop",
+    description: "Contemporary townhouse-style condo with rooftop deck offering views of the Space Needle and Puget Sound. Three levels of living space with private garage. The gourmet kitchen features a waterfall island and professional-grade appliances.",
+  },
+];

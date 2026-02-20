@@ -1,5 +1,24 @@
 {
-  "101649ead33ae34e": "Foto",
+  "10a7f455d01322ed": {
+    "c": [
+      {
+        "c": "Descripción",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": {
+          "i": 4,
+          "k": "_gt_value_4",
+          "v": "v"
+        },
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
   "1421d076a75905b2": [
     "Traducción General ",
     {
@@ -14,9 +33,418 @@
       "t": "span"
     }
   ],
+  "2442ea0956e46a81": [
+    {
+      "c": [
+        {
+          "c": [
+            {
+              "c": "Nombre",
+              "i": 3,
+              "t": "label"
+            },
+            {
+              "d": {
+                "pl": "John"
+              },
+              "i": 4,
+              "t": "input"
+            }
+          ],
+          "i": 2,
+          "t": "div"
+        },
+        {
+          "c": [
+            {
+              "c": "Apellido",
+              "i": 6,
+              "t": "label"
+            },
+            {
+              "d": {
+                "pl": "Doe"
+              },
+              "i": 7,
+              "t": "input"
+            }
+          ],
+          "i": 5,
+          "t": "div"
+        }
+      ],
+      "i": 1,
+      "t": "div"
+    },
+    {
+      "c": [
+        {
+          "c": "Correo electrónico",
+          "i": 9,
+          "t": "label"
+        },
+        {
+          "d": {
+            "pl": "john@example.com"
+          },
+          "i": 10,
+          "t": "input"
+        }
+      ],
+      "i": 8,
+      "t": "div"
+    },
+    {
+      "c": [
+        {
+          "c": "Asunto",
+          "i": 12,
+          "t": "label"
+        },
+        {
+          "c": [
+            {
+              "c": "Consulta sobre propiedad",
+              "i": 14,
+              "t": "option"
+            },
+            {
+              "c": "Programar una visita",
+              "i": 15,
+              "t": "option"
+            },
+            {
+              "c": "Pregunta general",
+              "i": 16,
+              "t": "option"
+            },
+            {
+              "c": "Otro",
+              "i": 17,
+              "t": "option"
+            }
+          ],
+          "i": 13,
+          "t": "select"
+        }
+      ],
+      "i": 11,
+      "t": "div"
+    },
+    {
+      "c": [
+        {
+          "c": "Mensaje",
+          "i": 19,
+          "t": "label"
+        },
+        {
+          "d": {
+            "pl": "Tell us what you're looking for..."
+          },
+          "i": 20,
+          "t": "textarea"
+        }
+      ],
+      "i": 18,
+      "t": "div"
+    },
+    {
+      "c": "Enviar mensaje",
+      "i": 21,
+      "t": "button"
+    }
+  ],
+  "4647c90bef81d854": "Contactar sobre esta propiedad",
+  "4fda30e3e4e8e769": [
+    {
+      "c": "Acerca de este proyecto",
+      "i": 1,
+      "t": "h1"
+    },
+    {
+      "c": [
+        {
+          "c": "Esta es una aplicación de demostración creada para mostrar cómo funciona la internacionalización con General Translation y Next.js. Los listados de propiedades que se muestran aquí son completamente ficticios y no pretenden representar propiedades ni precios reales.",
+          "i": 3,
+          "t": "p"
+        },
+        {
+          "c": "Qué demuestra",
+          "i": 4,
+          "t": "h2"
+        },
+        {
+          "c": "Esta aplicación de ejemplo destaca varias funcionalidades clave de internacionalización, entre ellas: texto de interfaz traducido, formato de moneda según la configuración regional, visualización de fechas localizada, reglas de pluralización adaptadas a cada idioma y detección automática de idioma con enrutamiento basado en URL.",
+          "i": 5,
+          "t": "p"
+        },
+        {
+          "c": "Tecnología",
+          "i": 6,
+          "t": "h2"
+        },
+        {
+          "c": "Desarrollada con Next.js y estilizada con Tailwind CSS, esta aplicación utiliza la biblioteca gt-next de General Translation para toda la internacionalización. Las traducciones se generan en tiempo de compilación mediante el GT CLI y se almacenan como archivos JSON estáticos, lo que garantiza cargas de página rápidas sin llamadas a la API en tiempo de ejecución.",
+          "i": 7,
+          "t": "p"
+        },
+        {
+          "c": "Cómo funciona",
+          "i": 8,
+          "t": "h2"
+        },
+        {
+          "c": "Cada fragmento de texto visible en este sitio está envuelto en componentes de traducción. Los valores de moneda se formatean automáticamente según la configuración regional seleccionada. Las fechas siguen las convenciones regionales. Las formas plurales se adaptan a las reglas gramaticales de cada idioma. El middleware detecta el idioma preferido del visitante y lo redirige al prefijo de configuración regional correspondiente.",
+          "i": 9,
+          "t": "p"
+        },
+        {
+          "c": "Código abierto",
+          "i": 10,
+          "t": "h2"
+        },
+        {
+          "c": "El código fuente completo de este proyecto está disponible en GitHub. Siéntete libre de explorar el código, bifurcar el repositorio y usarlo como punto de partida para tus propias aplicaciones internacionalizadas.",
+          "i": 11,
+          "t": "p"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    }
+  ],
   "56da41ac62ab0bbf": "Anuncios inmobiliarios | General Translation",
+  "66edf91eb5f4db2e": [
+    {
+      "c": "Tipos de propiedad",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        {
+          "c": "Casas",
+          "i": 3,
+          "t": "span"
+        },
+        {
+          "c": "Apartamentos",
+          "i": 4,
+          "t": "span"
+        },
+        {
+          "c": "Condominios",
+          "i": 5,
+          "t": "span"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    }
+  ],
+  "6973ccf437002f1b": {
+    "c": [
+      {
+        "c": "Encuentra la Casa de tus Sueños",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": "Explora nuestra selección de propiedades en todo Estados Unidos. Desde modernos apartamentos en la ciudad hasta amplias casas familiares, encuentra el lugar perfecto para llamar tuyo.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "section"
+  },
+  "6c7dcde265b937d8": {
+    "c": [
+      {
+        "c": [
+          {
+            "c": {
+              "i": 4,
+              "k": "_gt_n_4",
+              "v": "n"
+            },
+            "i": 3,
+            "t": "p"
+          },
+          {
+            "c": {
+              "d": {
+                "b": {
+                  "many": "Habitaciones",
+                  "other": "Habitaciones",
+                  "plural": "Habitaciones",
+                  "singular": "Dormitorio"
+                },
+                "t": "p"
+              },
+              "i": 6,
+              "t": "Plural"
+            },
+            "i": 5,
+            "t": "p"
+          }
+        ],
+        "i": 2,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": {
+              "i": 9,
+              "k": "_gt_n_9",
+              "v": "n"
+            },
+            "i": 8,
+            "t": "p"
+          },
+          {
+            "c": {
+              "d": {
+                "b": {
+                  "many": "Baños",
+                  "other": "Baños",
+                  "plural": "Baños",
+                  "singular": "Baño"
+                },
+                "t": "p"
+              },
+              "i": 11,
+              "t": "Plural"
+            },
+            "i": 10,
+            "t": "p"
+          }
+        ],
+        "i": 7,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": {
+              "i": 14,
+              "k": "_gt_n_14",
+              "v": "n"
+            },
+            "i": 13,
+            "t": "p"
+          },
+          {
+            "c": "sq ft",
+            "i": 15,
+            "t": "p"
+          }
+        ],
+        "i": 12,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "6e38d6ea39dbfb08": "Listados",
   "7353223cd4fcbd95": "Esta es una aplicación de ejemplo creada con General Translation para demostrar la internacionalización. Estos no son listados reales.",
+  "7ab8934b5ccf51e7": [
+    {
+      "c": [
+        {
+          "c": {
+            "i": 3,
+            "k": "_gt_cost_3",
+            "v": "c"
+          },
+          "i": 2,
+          "t": "span"
+        },
+        {
+          "c": {
+            "d": {
+              "b": {
+                "apartment": "Apartamento",
+                "condo": "Condominio",
+                "house": "Casa"
+              },
+              "t": "b"
+            },
+            "i": 5,
+            "t": "Branch"
+          },
+          "i": 4,
+          "t": "span"
+        }
+      ],
+      "i": 1,
+      "t": "div"
+    },
+    {
+      "c": {
+        "i": 7,
+        "k": "_gt_value_7",
+        "v": "v"
+      },
+      "i": 6,
+      "t": "h1"
+    },
+    {
+      "c": {
+        "i": 9,
+        "k": "_gt_value_9",
+        "v": "v"
+      },
+      "i": 8,
+      "t": "p"
+    }
+  ],
+  "7be0c393d34092d8": "Acerca de",
+  "956ca5d3267e7b5e": "Contacto",
   "9ea24869c672003d": "Desarrollado con General Translation",
+  "b5f19fd5355555d3": [
+    {
+      "c": "Navegación",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        {
+          "c": "Listados",
+          "i": 3,
+          "t": "Link"
+        },
+        {
+          "c": "Acerca de",
+          "i": 4,
+          "t": "Link"
+        },
+        {
+          "c": "Contacto",
+          "i": 5,
+          "t": "Link"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    }
+  ],
+  "b6c4bc30954a74d7": [
+    {
+      "c": "Contáctanos",
+      "i": 1,
+      "t": "h1"
+    },
+    {
+      "c": "¿Te interesa alguna propiedad o tienes preguntas? Envíanos un mensaje y nuestro equipo te responderá en menos de 24 horas.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
   "c16c48b1b60f268e": [
     {
       "c": [
@@ -208,7 +636,7 @@
               "k": "_gt_n_18",
               "v": "n"
             },
-            " m²"
+            " pies cuadrados"
           ],
           "i": 17,
           "t": "span"
@@ -230,6 +658,7 @@
       "t": "p"
     }
   ],
+  "c16e734681486c22": "Volver al listado",
   "c486d7174e380940": {
     "c": [
       {
@@ -267,5 +696,44 @@
     "i": 1,
     "t": "section"
   },
-  "ec831afed393091c": "Explora anuncios de propiedades con internacionalización potenciada por General Translation."
+  "cf0534e80384d7da": [
+    {
+      "c": "Recursos",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        {
+          "c": "Traducción General",
+          "i": 3,
+          "t": "a"
+        },
+        {
+          "c": "GitHub",
+          "i": 4,
+          "t": "a"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    }
+  ],
+  "e3854b6e6003a882": {
+    "c": {
+      "c": [
+        "Publicado el ",
+        {
+          "i": 3,
+          "k": "_gt_date_3",
+          "v": "d"
+        }
+      ],
+      "i": 2,
+      "t": "p"
+    },
+    "i": 1,
+    "t": "div"
+  },
+  "ec831afed393091c": "Explora anuncios de propiedades con internacionalización gestionada por General Translation."
 }

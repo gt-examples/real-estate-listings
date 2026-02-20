@@ -1,5 +1,24 @@
 {
-  "101649ead33ae34e": "Photo",
+  "10a7f455d01322ed": {
+    "c": [
+      {
+        "c": "Description",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": {
+          "i": 4,
+          "k": "_gt_value_4",
+          "v": "v"
+        },
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
   "1421d076a75905b2": [
     "Traduction générale ",
     {
@@ -14,9 +33,418 @@
       "t": "span"
     }
   ],
+  "2442ea0956e46a81": [
+    {
+      "c": [
+        {
+          "c": [
+            {
+              "c": "Prénom",
+              "i": 3,
+              "t": "label"
+            },
+            {
+              "d": {
+                "pl": "John"
+              },
+              "i": 4,
+              "t": "input"
+            }
+          ],
+          "i": 2,
+          "t": "div"
+        },
+        {
+          "c": [
+            {
+              "c": "Nom de famille",
+              "i": 6,
+              "t": "label"
+            },
+            {
+              "d": {
+                "pl": "Doe"
+              },
+              "i": 7,
+              "t": "input"
+            }
+          ],
+          "i": 5,
+          "t": "div"
+        }
+      ],
+      "i": 1,
+      "t": "div"
+    },
+    {
+      "c": [
+        {
+          "c": "Adresse e-mail",
+          "i": 9,
+          "t": "label"
+        },
+        {
+          "d": {
+            "pl": "john@example.com"
+          },
+          "i": 10,
+          "t": "input"
+        }
+      ],
+      "i": 8,
+      "t": "div"
+    },
+    {
+      "c": [
+        {
+          "c": "Objet",
+          "i": 12,
+          "t": "label"
+        },
+        {
+          "c": [
+            {
+              "c": "Renseignements sur un bien",
+              "i": 14,
+              "t": "option"
+            },
+            {
+              "c": "Planifier une visite",
+              "i": 15,
+              "t": "option"
+            },
+            {
+              "c": "Question générale",
+              "i": 16,
+              "t": "option"
+            },
+            {
+              "c": "Autre",
+              "i": 17,
+              "t": "option"
+            }
+          ],
+          "i": 13,
+          "t": "select"
+        }
+      ],
+      "i": 11,
+      "t": "div"
+    },
+    {
+      "c": [
+        {
+          "c": "Message",
+          "i": 19,
+          "t": "label"
+        },
+        {
+          "d": {
+            "pl": "Tell us what you're looking for..."
+          },
+          "i": 20,
+          "t": "textarea"
+        }
+      ],
+      "i": 18,
+      "t": "div"
+    },
+    {
+      "c": "Envoyer le message",
+      "i": 21,
+      "t": "button"
+    }
+  ],
+  "4647c90bef81d854": "Contacter à propos de cette propriété",
+  "4fda30e3e4e8e769": [
+    {
+      "c": "À propos de ce projet",
+      "i": 1,
+      "t": "h1"
+    },
+    {
+      "c": [
+        {
+          "c": "Il s'agit d'une application de démonstration conçue pour illustrer le fonctionnement de l'internationalisation avec General Translation et Next.js. Les annonces immobilières présentées ici sont entièrement fictives et ne visent pas à représenter des biens ou des prix réels.",
+          "i": 3,
+          "t": "p"
+        },
+        {
+          "c": "Ce que cela démontre",
+          "i": 4,
+          "t": "h2"
+        },
+        {
+          "c": "Cet exemple met en avant plusieurs fonctionnalités clés de l'internationalisation, notamment la traduction des textes de l'interface, le formatage des devises selon la locale, l'affichage localisé des dates, les règles de pluriel adaptées à chaque langue, ainsi que la détection automatique de la locale avec un routage basé sur l'URL.",
+          "i": 5,
+          "t": "p"
+        },
+        {
+          "c": "Technologie",
+          "i": 6,
+          "t": "h2"
+        },
+        {
+          "c": "Développée avec Next.js et stylisée avec Tailwind CSS, cette application utilise la bibliothèque gt-next de General Translation pour toute l'internationalisation. Les traductions sont générées au moment de la compilation via le GT CLI et stockées sous forme de fichiers JSON statiques, garantissant des chargements rapides sans appels API à l'exécution.",
+          "i": 7,
+          "t": "p"
+        },
+        {
+          "c": "Comment ça marche",
+          "i": 8,
+          "t": "h2"
+        },
+        {
+          "c": "Chaque texte visible sur ce site est encapsulé dans des composants de traduction. Les valeurs monétaires se formatent automatiquement selon la locale sélectionnée. Les dates suivent les conventions régionales. Les formes du pluriel s'adaptent aux règles grammaticales de chaque langue. Le middleware détecte la langue préférée du visiteur et le redirige vers le préfixe de locale approprié.",
+          "i": 9,
+          "t": "p"
+        },
+        {
+          "c": "Open Source",
+          "i": 10,
+          "t": "h2"
+        },
+        {
+          "c": "Le code source complet de ce projet est disponible sur GitHub. N'hésitez pas à explorer le code, à dupliquer le dépôt et à l'utiliser comme point de départ pour vos propres applications internationalisées.",
+          "i": 11,
+          "t": "p"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    }
+  ],
   "56da41ac62ab0bbf": "Annonces immobilières | General Translation",
+  "66edf91eb5f4db2e": [
+    {
+      "c": "Types de propriétés",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        {
+          "c": "Maisons",
+          "i": 3,
+          "t": "span"
+        },
+        {
+          "c": "Appartements",
+          "i": 4,
+          "t": "span"
+        },
+        {
+          "c": "Condominiums",
+          "i": 5,
+          "t": "span"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    }
+  ],
+  "6973ccf437002f1b": {
+    "c": [
+      {
+        "c": "Trouvez la maison de vos rêves",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": "Parcourez notre sélection de propriétés à travers les États-Unis. Des appartements modernes en ville aux maisons familiales spacieuses, trouvez l'endroit idéal à appeler chez vous.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "section"
+  },
+  "6c7dcde265b937d8": {
+    "c": [
+      {
+        "c": [
+          {
+            "c": {
+              "i": 4,
+              "k": "_gt_n_4",
+              "v": "n"
+            },
+            "i": 3,
+            "t": "p"
+          },
+          {
+            "c": {
+              "d": {
+                "b": {
+                  "many": "Chambres",
+                  "other": "Chambres",
+                  "plural": "Chambres",
+                  "singular": "Chambre"
+                },
+                "t": "p"
+              },
+              "i": 6,
+              "t": "Plural"
+            },
+            "i": 5,
+            "t": "p"
+          }
+        ],
+        "i": 2,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": {
+              "i": 9,
+              "k": "_gt_n_9",
+              "v": "n"
+            },
+            "i": 8,
+            "t": "p"
+          },
+          {
+            "c": {
+              "d": {
+                "b": {
+                  "many": "Salles de bains",
+                  "other": "Salles de bains",
+                  "plural": "Salles de bains",
+                  "singular": "Salle de bain"
+                },
+                "t": "p"
+              },
+              "i": 11,
+              "t": "Plural"
+            },
+            "i": 10,
+            "t": "p"
+          }
+        ],
+        "i": 7,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": {
+              "i": 14,
+              "k": "_gt_n_14",
+              "v": "n"
+            },
+            "i": 13,
+            "t": "p"
+          },
+          {
+            "c": "sq ft",
+            "i": 15,
+            "t": "p"
+          }
+        ],
+        "i": 12,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "6e38d6ea39dbfb08": "Annonces",
   "7353223cd4fcbd95": "Il s'agit d'un exemple d'application développée avec General Translation pour illustrer l'internationalisation. Ces annonces ne sont pas réelles.",
+  "7ab8934b5ccf51e7": [
+    {
+      "c": [
+        {
+          "c": {
+            "i": 3,
+            "k": "_gt_cost_3",
+            "v": "c"
+          },
+          "i": 2,
+          "t": "span"
+        },
+        {
+          "c": {
+            "d": {
+              "b": {
+                "apartment": "Appartement",
+                "condo": "Condo",
+                "house": "Maison"
+              },
+              "t": "b"
+            },
+            "i": 5,
+            "t": "Branch"
+          },
+          "i": 4,
+          "t": "span"
+        }
+      ],
+      "i": 1,
+      "t": "div"
+    },
+    {
+      "c": {
+        "i": 7,
+        "k": "_gt_value_7",
+        "v": "v"
+      },
+      "i": 6,
+      "t": "h1"
+    },
+    {
+      "c": {
+        "i": 9,
+        "k": "_gt_value_9",
+        "v": "v"
+      },
+      "i": 8,
+      "t": "p"
+    }
+  ],
+  "7be0c393d34092d8": "À propos",
+  "956ca5d3267e7b5e": "Contact",
   "9ea24869c672003d": "Conçu avec General Translation",
+  "b5f19fd5355555d3": [
+    {
+      "c": "Navigation",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        {
+          "c": "Annonces",
+          "i": 3,
+          "t": "Link"
+        },
+        {
+          "c": "À propos",
+          "i": 4,
+          "t": "Link"
+        },
+        {
+          "c": "Contact",
+          "i": 5,
+          "t": "Link"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    }
+  ],
+  "b6c4bc30954a74d7": [
+    {
+      "c": "Contactez-nous",
+      "i": 1,
+      "t": "h1"
+    },
+    {
+      "c": "Intéressé par un bien ou vous avez des questions ? Envoyez-nous un message et notre équipe vous répondra dans les 24 heures.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
   "c16c48b1b60f268e": [
     {
       "c": [
@@ -208,7 +636,7 @@
               "k": "_gt_n_18",
               "v": "n"
             },
-            " m²"
+            " pi²"
           ],
           "i": 17,
           "t": "span"
@@ -230,6 +658,7 @@
       "t": "p"
     }
   ],
+  "c16e734681486c22": "Retour aux annonces",
   "c486d7174e380940": {
     "c": [
       {
@@ -267,5 +696,44 @@
     "i": 1,
     "t": "section"
   },
-  "ec831afed393091c": "Parcourez des annonces immobilières avec l’internationalisation fournie par General Translation."
+  "cf0534e80384d7da": [
+    {
+      "c": "Ressources",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        {
+          "c": "Traduction générale",
+          "i": 3,
+          "t": "a"
+        },
+        {
+          "c": "GitHub",
+          "i": 4,
+          "t": "a"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    }
+  ],
+  "e3854b6e6003a882": {
+    "c": {
+      "c": [
+        "Publié le ",
+        {
+          "i": 3,
+          "k": "_gt_date_3",
+          "v": "d"
+        }
+      ],
+      "i": 2,
+      "t": "p"
+    },
+    "i": 1,
+    "t": "div"
+  },
+  "ec831afed393091c": "Parcourez des annonces immobilières avec l’internationalisation assurée par General Translation."
 }
