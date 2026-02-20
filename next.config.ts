@@ -5,4 +5,7 @@ const nextConfig: NextConfig = {};
 
 export default withGTConfig(nextConfig, {
   loadTranslationsPath: "src/loadTranslations.ts",
+  experimentalCompilerOptions: {
+    type: "swc",
+  },
 });
