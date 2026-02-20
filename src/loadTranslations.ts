@@ -1,8 +1,15 @@
-import fs from "fs";
-import path from "path";
+import es from "../public/_gt/es.json";
+import fr from "../public/_gt/fr.json";
+import ja from "../public/_gt/ja.json";
+import zh from "../public/_gt/zh.json";
+
+const translations: Record<string, Record<string, unknown>> = {
+  es,
+  fr,
+  ja,
+  zh,
+};
 
 export default async function loadTranslations(locale: string) {
-  const filePath = path.join(process.cwd(), "public", "_gt", `${locale}.json`);
-  const raw = fs.readFileSync(filePath, "utf-8");
-  return JSON.parse(raw);
+  return translations[locale];
 }
