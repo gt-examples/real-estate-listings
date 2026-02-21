@@ -1,4 +1,5 @@
 {
+  "080def48cfa27c7a": "john@example.com",
   "10a7f455d01322ed": {
     "c": [
       {
@@ -44,9 +45,6 @@
               "t": "label"
             },
             {
-              "d": {
-                "pl": "John"
-              },
               "i": 4,
               "t": "input"
             }
@@ -62,9 +60,6 @@
               "t": "label"
             },
             {
-              "d": {
-                "pl": "Doe"
-              },
               "i": 7,
               "t": "input"
             }
@@ -84,9 +79,6 @@
           "t": "label"
         },
         {
-          "d": {
-            "pl": "john@example.com"
-          },
           "i": 10,
           "t": "input"
         }
@@ -139,9 +131,6 @@
           "t": "label"
         },
         {
-          "d": {
-            "pl": "Tell us what you're looking for..."
-          },
           "i": 20,
           "t": "textarea"
         }
@@ -155,65 +144,9 @@
       "t": "button"
     }
   ],
+  "2a7216b1e497c21d": "Menú",
   "4647c90bef81d854": "Contactar sobre esta propiedad",
-  "4fda30e3e4e8e769": [
-    {
-      "c": "Acerca de este proyecto",
-      "i": 1,
-      "t": "h1"
-    },
-    {
-      "c": [
-        {
-          "c": "Esta es una aplicación de demostración creada para mostrar cómo funciona la internacionalización con General Translation y Next.js. Los listados de propiedades que se muestran aquí son completamente ficticios y no pretenden representar propiedades ni precios reales.",
-          "i": 3,
-          "t": "p"
-        },
-        {
-          "c": "Qué demuestra",
-          "i": 4,
-          "t": "h2"
-        },
-        {
-          "c": "Esta aplicación de ejemplo destaca varias funcionalidades clave de internacionalización, entre ellas: texto de interfaz traducido, formato de moneda según la configuración regional, visualización de fechas localizada, reglas de pluralización adaptadas a cada idioma y detección automática de idioma con enrutamiento basado en URL.",
-          "i": 5,
-          "t": "p"
-        },
-        {
-          "c": "Tecnología",
-          "i": 6,
-          "t": "h2"
-        },
-        {
-          "c": "Desarrollada con Next.js y estilizada con Tailwind CSS, esta aplicación utiliza la biblioteca gt-next de General Translation para toda la internacionalización. Las traducciones se generan en tiempo de compilación mediante el GT CLI y se almacenan como archivos JSON estáticos, lo que garantiza cargas de página rápidas sin llamadas a la API en tiempo de ejecución.",
-          "i": 7,
-          "t": "p"
-        },
-        {
-          "c": "Cómo funciona",
-          "i": 8,
-          "t": "h2"
-        },
-        {
-          "c": "Cada fragmento de texto visible en este sitio está envuelto en componentes de traducción. Los valores de moneda se formatean automáticamente según la configuración regional seleccionada. Las fechas siguen las convenciones regionales. Las formas plurales se adaptan a las reglas gramaticales de cada idioma. El middleware detecta el idioma preferido del visitante y lo redirige al prefijo de configuración regional correspondiente.",
-          "i": 9,
-          "t": "p"
-        },
-        {
-          "c": "Código abierto",
-          "i": 10,
-          "t": "h2"
-        },
-        {
-          "c": "El código fuente completo de este proyecto está disponible en GitHub. Siéntete libre de explorar el código, bifurcar el repositorio y usarlo como punto de partida para tus propias aplicaciones internacionalizadas.",
-          "i": 11,
-          "t": "p"
-        }
-      ],
-      "i": 2,
-      "t": "div"
-    }
-  ],
+  "4c725c15761f190f": "Cuéntanos qué estás buscando...",
   "56da41ac62ab0bbf": "Anuncios inmobiliarios | General Translation",
   "66edf91eb5f4db2e": [
     {
@@ -246,7 +179,7 @@
   "6973ccf437002f1b": {
     "c": [
       {
-        "c": "Encuentra la Casa de tus Sueños",
+        "c": "Encuentra tu hogar ideal",
         "i": 2,
         "t": "h1"
       },
@@ -279,7 +212,7 @@
                   "many": "Habitaciones",
                   "other": "Habitaciones",
                   "plural": "Habitaciones",
-                  "singular": "Dormitorio"
+                  "singular": "Habitación"
                 },
                 "t": "p"
               },
@@ -403,6 +336,103 @@
     }
   ],
   "7be0c393d34092d8": "Acerca de",
+  "7c0d3438aa8bc4a0": [
+    {
+      "c": "Acerca de este proyecto",
+      "i": 1,
+      "t": "h1"
+    },
+    {
+      "c": [
+        {
+          "c": "Esta es una aplicación de demostración creada para mostrar cómo funciona la internacionalización con General Translation y Next.js. Los listados de propiedades que aparecen aquí son completamente ficticios y no pretenden representar propiedades ni precios reales.",
+          "i": 3,
+          "t": "p"
+        },
+        {
+          "c": "Qué demuestra",
+          "i": 4,
+          "t": "h2"
+        },
+        {
+          "c": "Esta aplicación de ejemplo destaca varias funcionalidades clave de internacionalización, entre ellas: texto de interfaz traducido, formato de moneda según la configuración regional, visualización de fechas localizada, reglas de pluralización adaptadas a cada idioma y detección automática de configuración regional con enrutamiento basado en URL.",
+          "i": 5,
+          "t": "p"
+        },
+        {
+          "c": "Tecnología",
+          "i": 6,
+          "t": "h2"
+        },
+        {
+          "c": "Desarrollada con Next.js y estilizada con Tailwind CSS, esta aplicación utiliza la biblioteca gt-next de General Translation para toda la internacionalización. Las traducciones se generan en tiempo de compilación mediante el GT CLI y se almacenan como archivos JSON estáticos, lo que garantiza cargas de página rápidas sin llamadas a la API en tiempo de ejecución.",
+          "i": 7,
+          "t": "p"
+        },
+        {
+          "c": "Cómo funciona",
+          "i": 8,
+          "t": "h2"
+        },
+        {
+          "c": "Cada fragmento de texto visible en este sitio está envuelto en componentes de traducción. Los valores de moneda se formatean automáticamente según la configuración regional seleccionada. Las fechas siguen las convenciones regionales. Las formas plurales se adaptan a las reglas gramaticales de cada idioma. El middleware detecta el idioma preferido del visitante y lo redirige al prefijo de configuración regional correspondiente.",
+          "i": 9,
+          "t": "p"
+        },
+        {
+          "c": "Más información",
+          "i": 10,
+          "t": "h2"
+        },
+        {
+          "c": [
+            "Explora la ",
+            {
+              "c": "documentación de General Translation",
+              "i": 12,
+              "t": "a"
+            },
+            " para aprender a añadir internacionalización a tus propios proyectos. Para conocer el enrutamiento internacionalizado en Next.js, consulta la ",
+            {
+              "c": "guía de i18n de Next.js",
+              "i": 13,
+              "t": "a"
+            },
+            "."
+          ],
+          "i": 11,
+          "t": "p"
+        },
+        {
+          "c": "Código abierto",
+          "i": 14,
+          "t": "h2"
+        },
+        {
+          "c": [
+            "El código fuente completo de este proyecto está disponible en ",
+            {
+              "c": "GitHub",
+              "i": 16,
+              "t": "a"
+            },
+            ". Siéntete libre de explorar el código, hacer un fork del repositorio y usarlo como punto de partida para tus propias aplicaciones internacionalizadas. También puedes conocer las mejores prácticas de SEO multilingüe en nuestra ",
+            {
+              "c": "guía de SEO multilingüe con Next.js",
+              "i": 17,
+              "t": "a"
+            },
+            "."
+          ],
+          "i": 15,
+          "t": "p"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    }
+  ],
+  "8b81c016e9607e2b": "Doe",
   "956ca5d3267e7b5e": "Contacto",
   "9ea24869c672003d": "Desarrollado con General Translation",
   "b5f19fd5355555d3": [
@@ -462,7 +492,7 @@
             "d": {
               "b": {
                 "apartment": "Apartamento",
-                "condo": "Condominio",
+                "condo": "Condo",
                 "house": "Casa"
               },
               "t": "b"
@@ -574,7 +604,7 @@
                       "k": "_gt_n_17",
                       "v": "n"
                     },
-                    " baños"
+                    " de baños"
                   ],
                   "i": 16,
                   "t": "C16"
@@ -586,7 +616,7 @@
                       "k": "_gt_n_17",
                       "v": "n"
                     },
-                    " baños"
+                    " de baños"
                   ],
                   "i": 16,
                   "t": "C16"
@@ -598,7 +628,7 @@
                       "k": "_gt_n_17",
                       "v": "n"
                     },
-                    " baños"
+                    " de baños"
                   ],
                   "i": 16,
                   "t": "C16"
@@ -696,6 +726,7 @@
     "i": 1,
     "t": "section"
   },
+  "cd54d9750fe5e681": "John",
   "cf0534e80384d7da": [
     {
       "c": "Recursos",
@@ -735,5 +766,5 @@
     "i": 1,
     "t": "div"
   },
-  "ec831afed393091c": "Explora anuncios de propiedades con internacionalización gestionada por General Translation."
+  "ec831afed393091c": "Explora anuncios de propiedades con internacionalización potenciada por General Translation."
 }

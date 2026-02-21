@@ -1,8 +1,10 @@
 import { T } from "gt-next";
+import { getGT } from "gt-next/server";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-export default function Contact() {
+export default async function Contact() {
+  const gt = await getGT();
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -28,7 +30,7 @@ export default function Contact() {
                 <input
                   type="text"
                   className="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-2.5 text-zinc-100 text-sm focus:outline-none focus:border-zinc-600 transition placeholder-zinc-600"
-                  placeholder="John"
+                  placeholder={gt("John")}
                 />
               </div>
               <div>
@@ -38,7 +40,7 @@ export default function Contact() {
                 <input
                   type="text"
                   className="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-2.5 text-zinc-100 text-sm focus:outline-none focus:border-zinc-600 transition placeholder-zinc-600"
-                  placeholder="Doe"
+                  placeholder={gt("Doe")}
                 />
               </div>
             </div>
@@ -50,7 +52,7 @@ export default function Contact() {
               <input
                 type="email"
                 className="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-2.5 text-zinc-100 text-sm focus:outline-none focus:border-zinc-600 transition placeholder-zinc-600"
-                placeholder="john@example.com"
+                placeholder={gt("john@example.com")}
               />
             </div>
 
@@ -73,7 +75,7 @@ export default function Contact() {
               <textarea
                 rows={5}
                 className="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-2.5 text-zinc-100 text-sm focus:outline-none focus:border-zinc-600 transition placeholder-zinc-600 resize-none"
-                placeholder="Tell us what you're looking for..."
+                placeholder={gt("Tell us what you're looking for...")}
               />
             </div>
 

@@ -1,29 +1,39 @@
 # Real Estate Listings
 
-A property listing page built with [Next.js](https://nextjs.org) and [General Translation](https://generaltranslation.com) to demonstrate internationalization.
+A property listing page demonstrating internationalization with General Translation and Next.js.
 
-## Features
+**[Live Demo](https://real-estate-listings.generaltranslation.dev)** | **[General Translation Docs](https://generaltranslation.com/docs)**
 
-- Property cards with prices, square footage, bedroom/bathroom counts, and listing dates
-- Property type badges (house, apartment, condo)
-- Locale-aware number, currency, and date formatting
-- Pluralization for bedroom and bathroom counts
-- Translated UI in English, Spanish, French, Japanese, and Chinese
-- Locale selector with `[locale]` routing
+## About
+
+This example app showcases a realistic real estate listings site with full i18n support. Property cards display locale-aware currency, dates, and pluralization. Available in English, Spanish, French, Japanese, and Chinese.
+
+## GT Features Used
+
+- `<T>` — JSX translation
+- `<Currency>` — Locale-aware currency formatting
+- `<Num>` — Number formatting
+- `<DateTime>` — Date/time formatting
+- `<Plural>` — Pluralization
+- `<Branch>` — Conditional rendering by property type
+- `<Var>` — Dynamic values in translated content
+- `<LocaleSelector>` — Language picker
+- `getGT` / `useGT` — String translations (metadata, placeholders)
+- `loadTranslations` — Local translation storage
 
 ## Getting Started
 
 ```bash
+git clone https://github.com/gt-examples/real-estate-listings.git
+cd real-estate-listings
 npm install
 npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
 
-## Translations
+## Built With
 
-Translations are stored locally in `public/_gt/`. To regenerate:
-
-```bash
-npx gtx-cli translate
-```
+- [Next.js](https://nextjs.org)
+- [General Translation](https://generaltranslation.com) (gt-next)
+- [Tailwind CSS](https://tailwindcss.com)

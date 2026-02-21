@@ -1,12 +1,14 @@
 "use client";
 
 import { T } from "gt-next";
+import { useGT } from "gt-next/client";
 import { LocaleSelector } from "gt-next/client";
 import Link from "next/link";
 import { useState } from "react";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const gt = useGT();
 
   return (
     <header className="border-b border-zinc-800 bg-zinc-950">
@@ -66,7 +68,7 @@ export default function Header() {
           <button
             className="md:hidden text-zinc-400 hover:text-zinc-200 transition"
             onClick={() => setMenuOpen(!menuOpen)}
-            aria-label="Menu"
+            aria-label={gt("Menu")}
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               {menuOpen ? (

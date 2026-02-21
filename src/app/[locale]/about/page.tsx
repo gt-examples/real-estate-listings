@@ -56,12 +56,34 @@ export default function About() {
             </p>
 
             <h2 className="text-xl font-semibold text-zinc-200">
+              Learn More
+            </h2>
+            <p>
+              Explore{" "}
+              <a href="https://generaltranslation.com/docs" className="text-zinc-200 underline hover:text-zinc-100 transition" target="_blank" rel="noopener noreferrer">
+                General Translation documentation
+              </a>{" "}
+              to learn how to add internationalization to your own projects. For
+              background on Next.js internationalized routing, check out the{" "}
+              <a href="https://nextjs.org/docs/app/building-your-application/routing/internationalization" className="text-zinc-200 underline hover:text-zinc-100 transition" target="_blank" rel="noopener noreferrer">
+                Next.js i18n guide
+              </a>.
+            </p>
+
+            <h2 className="text-xl font-semibold text-zinc-200">
               Open Source
             </h2>
             <p>
-              The full source code for this project is available on GitHub. Feel
+              The full source code for this project is available on{" "}
+              <a href="https://github.com/gt-examples/real-estate-listings" className="text-zinc-200 underline hover:text-zinc-100 transition" target="_blank" rel="noopener noreferrer">
+                GitHub
+              </a>. Feel
               free to explore the code, fork the repository, and use it as a
-              starting point for your own internationalized applications.
+              starting point for your own internationalized applications. You can
+              also learn about multilingual SEO best practices in our{" "}
+              <a href="https://generaltranslation.com/en-US/blog/multilingual-nextjs-seo" className="text-zinc-200 underline hover:text-zinc-100 transition" target="_blank" rel="noopener noreferrer">
+                multilingual Next.js SEO guide
+              </a>.
             </p>
           </div>
         </T>
